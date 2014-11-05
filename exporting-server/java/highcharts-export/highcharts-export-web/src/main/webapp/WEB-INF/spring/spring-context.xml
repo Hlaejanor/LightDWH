@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="https://www.springframework.org/schema/beans"
+	xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="https://www.springframework.org/schema/context"
+	xmlns:mvc="https://www.springframework.org/schema/mvc"
+	xmlns:util="https://www.springframework.org/schema/util"
+	xmlns:task="https://www.springframework.org/schema/task"
+	xmlns:p="https://www.springframework.org/schema/p"
+	xsi:schemaLocation="https://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
+		https://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+		https://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util-3.2.xsd
+		https://www.springframework.org/schema/task https://www.springframework.org/schema/task/spring-task-3.2.xsd
+		https://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context-3.2.xsd">
+
+	<!-- Activate annotation configured components -->
+	<import resource="classpath:spring-convert.xml"/>
+</beans>
